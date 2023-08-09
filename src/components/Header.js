@@ -30,6 +30,7 @@ const Header = () => {
             <Link href='/reviews' ml={4} _hover={{ textDecoration: "none" }}>Reviews</Link>
             <Link href='/purchase' ml={4} _hover={{ textDecoration: "none" }}>Purchase</Link>
             <Link href='/contact' ml={4} _hover={{ textDecoration: "none" }}>Contact</Link>
+            <Link href='/sample' ml={4} _hover={{ textDecoration: "none" }}>Sample</Link>
           </>
         ) : (
           <IconButton
@@ -59,6 +60,7 @@ const Header = () => {
                 <Link href='/reviews' ml={4} _hover={{ textDecoration: "none" }}>Reviews</Link>
                 <Link href='/purchase' ml={4} _hover={{ textDecoration: "none" }}>Purchase</Link>
                 <Link href='/contact' ml={4} _hover={{ textDecoration: "none" }}>Contact</Link>
+                <Link href='/sample' ml={4} _hover={{ textDecoration: "none" }}>Sample</Link>
               </VStack>
             </DrawerBody>
           </DrawerContent>
